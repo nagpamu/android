@@ -12,9 +12,11 @@ import android.view.View;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
+     EditText et1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
